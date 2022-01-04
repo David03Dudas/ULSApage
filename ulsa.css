@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 245, 232);
+    margin-bottom: 5px;
+}
+
+#body_elements {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bar {
+    background-color: rgb(55, 108, 255);
+    width: 100%;
+    height: 6vh;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    z-index: 50;
+    display: flex;
+}
+
+.nav-bar h1{
+    margin-left: 5vh;
+}
+
+ul {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    height: 6vh;
+    margin-right: 5vh;
+}
+
+ul li a{
+    margin: auto 5vh;
+    font-size: 1.3rem;
+}
+
+.kep img{
+    margin-top: 6vh;
+    width: 100%;
+    background-color: black;
+    height:auto;
+}
+
+.section_box {
+    background-color: rgb(241, 238, 238);
+    width: min(90%,1000px);
+    height: 70vh;
+    position: relative;
+    top: 5vh;
+    box-shadow: 10px 10px 5px rgb(204, 204, 204);
+    opacity: 90%;
+    border-radius: 20px;
+}
+
+#leiras p {
+    padding: 2vh;
+}
+
+#leiras div {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+
+
+#leiras {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#leiras img {
+    width: 40vh;
+}
+
+#tanszekek {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: auto;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.t-card {
+    width: 320px;
+    height: 50vh;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(0, 0, 0) solid 1px;
+    margin-bottom: 50px;
+}
+
+.t-card img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 1px black solid;
+}
+
+.t-card h1 {
+    font-size: 1.8rem;
+    border-bottom: 1px black solid;
+}
+
+.t-card p {
+    padding: 10px;
+    font-size: 1.15rem;
+}
